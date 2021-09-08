@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="C:\Users\manikittu\OneDrive\Desktop\freeCodeCamp\Product_landing_page\index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCjYVWbgx3z8AA3jltOcp0uvd5M1_uXz1jeQ&usqp=CAU"
+                alt="narasimha" id="header-img">
+            <span id="logo">The Cat Shop</span>
+            <nav id="nav-bar">
+                <a href="#howItWorks" class="nav-link">howItWorks</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">cost</a>
+            </nav>
+        </header>
+        <section id="howItWorks">
+            <h1>Want to make your Cat Bliss??</h1>
+            <div class="embed-container">
+                <iframe id="video" title="Cute Video of Cats" width="560" height="315"
+                    src="https://www.youtube.com/embed/-8JQB_wXjmk" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>Your Browser does not support the video tag.</iframe>
+            </div>
+        </section>
+        <section id="features">
+            <div>
+                <p>Our products make for a happy Cat because they are</p>
+            </div>
+            <div>
+                <ul id="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-paw"></i></span>Made with all Organic Ingredients</li>
+                    <li><span class="fa-li"><i class="fas fa-paw"></i></span>Food blended with good amount for vitamins
+                        and minerals</li>
+                    <li><span class="fa-li"><i class="fas fa-paw"></i></span>It tastes really great!!;)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="pricing">
+            <div>
+                <p><b>For billing info please supply your Email</b></p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <div>
+                        <label for="email">Email : </label>
+                        <input type="email" placeholder="yourEmail@Fcc.com" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="Get  started today!" id="submit" class="btn">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
