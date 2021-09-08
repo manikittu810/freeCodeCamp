@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1,maximum-scale=1,user-scalable=no">
+    <script src="C:\Users\manikittu\OneDrive\Desktop\freeCodeCamp\surveyForm\survey.css"></script>
+    <link rel="stylesheet" type="text/css" href="C:\Users\manikittu\OneDrive\Desktop\freeCodeCamp\surveyForm\survey.css">
+</head>
+<body>
+    
+    <div>
+        <h1 id="title"><i><strong><b>freeCodeCamp CODING CHALLENGE !!!! :) :) </h1>
+        <p id="description"><marquee>Group for Coders Who are Interested in Competative Programming</marquee></p>
+
+        <form id="survey-form">
+            <label for="name" id="name">Name : </label>
+            <br>
+            <input type="text" id="name" id="name" required placeholder="Enter Your Name">
+            <br>
+            <br>
+            <label for="email" id="email-label">Email : </label>
+            <br>
+            <input type="email" id="email" required placeholder="Enter your email address">
+            <br><br>
+            <label for="number" id="number-label">Enter the Number of Members involved in your group: </label><br>
+
+            <input type="number" id="number" placeholder="Enter Your Number" min="1" max="5" required>
+            <br><br>
+            <br>
+            <label for="join-question">Main purpose in joining this group and type of coder:</label><br>
+            <select name="join-quesion" id="dropdown" list="join-list">
+                <option value="beginner">I am lost and confused and I'm a beginner</option>
+                <option value="intermediate">I learn best in groups and I can code to a intermediate level</option>
+                <option value="Advance coders">I like to meet people who love to code and I'm a advance coder</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>DO YOU KNOW HOW TO CODE??..</legend>
+                <input type="radio" name="topCoder">YES<br>
+                <input type="radio" name="topCoder">NO<br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>IN HOW MANY LANGUAGES YOU CAN CODE??..</legend>
+                <label><input type="checkbox" value="JavaScript">JavaScript</label><br>
+                <label><input type="checkbox" value="C++">C++</label><br>
+                <label><input type="checkbox" value="JAVA">JAVA</label><br>
+                <label><input type="checkbox" value="other">other</label><br>
+            </fieldset>
+            <br><br>
+            <label for="formReview"><b><strong>Comments about the form</label>
+            <textarea id="comments" name="comments" maxlength="250" placeholder="Type your text here :) :)"></textarea>
+            <br>
+            <br>
+            <div id="btn-div">
+                <button type="button" id="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
